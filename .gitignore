@@ -4,3 +4,4 @@ spec/fixtures
 pkg/
 vendor/bundle
 .bundle
+.idea

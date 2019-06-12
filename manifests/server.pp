@@ -35,6 +35,7 @@ class influxdb::server (
   $compact_full_write_cold_duration             = $influxdb::params::compact_full_write_cold_duration,
   $max_points_per_block                         = $influxdb::params::max_points_per_block,
   $max_series_per_database                      = $influxdb::params::max_series_per_database,
+  $index_version                                = $influxdb::params::index_version,
 
   $hinted_handoff_enabled                       = $influxdb::params::hinted_handoff_enabled,
   $hinted_handoff_dir                           = $influxdb::params::hinted_handoff_dir,
