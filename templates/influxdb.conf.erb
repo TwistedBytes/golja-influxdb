@@ -2,11 +2,11 @@
 #
 
 reporting-disabled = <%= @reporting_disabled %>
+bind-address = "<%= @meta_bind_address %>"
 
 [meta]
   enabled = true
   dir = "<%= @meta_dir %>"
-  bind-address = "<%= @meta_bind_address %>"
   http-bind-address = "<%= @meta_http_bind_address -%>"
   retention-autocreate = <%= @retention_autocreate %>
   election-timeout = "<%= @election_timeout %>"
